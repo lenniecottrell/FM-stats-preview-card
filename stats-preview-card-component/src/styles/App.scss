@@ -72,6 +72,55 @@ select {
   font: inherit;
 }
 
+/*END CSS RESET*/
+body {
+  background-color: $veryDarkBlue;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: row;
+  background-color: $darkDesaturatedBlue;
+  border-radius: 2px;
+  color: $white;
+}
+
+.imageSide {
+  background-color: $softViolet;
+}
+
+.textSide{
+  border: 2px solid red;
+  p {
+    color: $slightlyTransparentWhiteHeadings
+  }
+}
+
+.textContainer {
+  border: 2px solid yellow
+}
+
+.accent {
+  color:$softViolet;
+}
+
+.statBlockContainer {
+  border: 2px solid green;
+  display: flex;
+  flex-direction: row;
+}
+
+.statBlock {
+  border: 2px solid blue;
+}
+
+
+
 /*
 @media only screen and (max-width: 375px) {
 
