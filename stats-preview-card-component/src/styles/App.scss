@@ -34,27 +34,9 @@ dd {
   padding: 0;
 }
 
-/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role='list'],
-ol[role='list'] {
-  list-style: none;
-}
-
 /* Set core root defaults */
 html:focus-within {
   scroll-behavior: smooth;
-}
-
-/* Set core body defaults */
-body {
-  min-height: 100vh;
-  text-rendering: optimizeSpeed;
-  line-height: 1.5;
-}
-
-/* A elements that don't have a class get default styles */
-a:not([class]) {
-  text-decoration-skip-ink: auto;
 }
 
 /* Make images easier to work with */
@@ -73,9 +55,11 @@ select {
 }
 
 /*END CSS RESET*/
+
 body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
   background-color: $veryDarkBlue;
-  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -88,35 +72,44 @@ body {
   background-color: $darkDesaturatedBlue;
   border-radius: 2px;
   color: $white;
+  width: 75%;
 }
 
 .imageSide {
-  background-color: $softViolet;
+  object-fit: cover;
 }
 
 .textSide{
-  border: 2px solid red;
-  p {
-    color: $slightlyTransparentWhiteHeadings
-  }
+  border: 2px solid purple;
+  margin: 4rem;
+  width: 50%;
 }
 
 .textContainer {
-  border: 2px solid yellow
-}
-
-.accent {
-  color:$softViolet;
+  border: 2px solid yellow;
+  padding: 1rem;
+  h1 {
+    font-size: 40px;
+  }
+  .accent {
+    color:$softViolet;
+  }
 }
 
 .statBlockContainer {
   border: 2px solid green;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  p {
+    color: $slightlyTransparentWhiteHeadings
+  }
 }
 
 .statBlock {
   border: 2px solid blue;
+  margin: 1rem;
+
 }
 
 
