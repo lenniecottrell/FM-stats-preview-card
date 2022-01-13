@@ -75,7 +75,6 @@ body {
 
 .textSide{
   position: relative;
-  // border: 2px solid red;
   width: 50%;
 }
 
@@ -123,8 +122,70 @@ body {
 }
 
 
-/*
-@media only screen and (max-width: 375px) {
 
+@media only screen and (max-width: 375px) {
+  body {
+    min-height: 100vh;
+  }
+
+  .app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    max-width: 88vw;
+    overflow:hidden;
+    margin: 1rem;
+  }
+  
+  .imageSide {
+    order: 1;
+    width: 100%;
+    img {
+      max-width: 100%;
+      height: auto;
+      object-fit:contain;
+      display:block;
+      opacity: 0.75;
+    }
+  }
+
+  .textSide{
+    order: 2;
+    width: 100%;
+    text-align: center;
+  }
+
+  .textContainer {
+    padding: 1rem;
+    margin-top: 1.2rem;
+    h1 {
+      font-size: 30px;
+    }
+    p {
+      margin-top: 1.2rem;
+      padding: 0rem 1.5rem;
+      color: $slightlyTransparentWhiteMain;
+
+    }
+  }
+
+  .statBlockContainer {
+    flex-direction: column;
+    margin-top: 1rem ;
+    .statNum {
+      color: $white;
+      font-weight: bold;
+      font-size: 1.5rem;
+      padding: 0;
+      margin-top: 2rem;
+    }
+    .label {
+      color: $slightlyTransparentWhiteMain;
+    }
+  }
 }
-*/
