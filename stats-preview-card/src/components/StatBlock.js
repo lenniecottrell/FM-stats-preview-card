@@ -2,10 +2,10 @@ import React from 'react'
 
 const StatBlock = ({stat, label}) => {
   return (
-    <div className='statBlock'>
-      <h2>{stat}</h2>
-      <p>{label}</p>
-    </div>
+    <li className='statBlock'>
+      <p className='statNum'>{stat}</p>
+      <p className='label'>{label}</p>
+    </li>
   )
 }
 

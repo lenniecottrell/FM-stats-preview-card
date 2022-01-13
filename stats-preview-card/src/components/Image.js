@@ -4,9 +4,9 @@ import headerImage from '../images/image-header-desktop.jpg'
 
 const Image = () => {
   return (
-    <section className='imageSide'>
+    <div className='imageSide'>
       <img src={headerImage} alt="business meeting" />
-    </section>
+    </div>
   )
 }
   

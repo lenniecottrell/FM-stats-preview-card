@@ -4,10 +4,10 @@ import Image from './Image'
 
 const Card = () => {
   return (
-    <div className='card'>
+    <main className='card'>
       <Copy />
       <Image />
-    </div>
+    </main>
   )
 }
 

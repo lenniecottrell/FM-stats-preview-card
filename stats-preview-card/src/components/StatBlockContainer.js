@@ -3,7 +3,7 @@ import StatBlock from './StatBlock';
 
 const StatBlockContainer = () => {
   return (
-    <div className='statBlockContainer'>
+    <ul className='statBlockContainer'>
       <StatBlock
         stat="10k+"
         label="COMPANIES"
@@ -16,8 +16,8 @@ const StatBlockContainer = () => {
         stat="12M+"
         label="QUERIES"
       />
-    </div>
-  )
+    </ul>
+  ) 
 }
 
 export default StatBlockContainer

@@ -4,10 +4,9 @@ import StatBlockContainer from './StatBlockContainer'
 
 const Copy = () => {
   return (
-    <section className="textSide">
+    <div className="textSide">
       <TextContainer />
-      <StatBlockContainer />
-    </section>
+    </div>
   )
 }
 
