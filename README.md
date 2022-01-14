@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/stats-preview-components-with-react-EG23ZK5CZ)
-- Live Site URL: [Add live site URL here](https://lenniecottrell.github.io/FM-stats-preview-card/)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/stats-preview-components-with-react-EG23ZK5CZ)
+- Live Site URL: [Live demo](https://lenniecottrell.github.io/FM-stats-preview-card/)
 
 ## My process
 - I have learned the value of a little bit of planning before diving into the code, so I planned out how I would initially structure my components before getting started. This changed slightly towards the end, but I think that's fine.
