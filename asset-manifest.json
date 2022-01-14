@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/FM-stats-preview-card/static/css/main.8a7804d0.css",
-    "main.js": "/FM-stats-preview-card/static/js/main.3e47a2b8.js",
+    "main.js": "/FM-stats-preview-card/static/js/main.47335092.js",
     "static/media/image-header-desktop.jpg": "/FM-stats-preview-card/static/media/image-header-desktop.72d6e2a00c9131c7b6a6.jpg",
     "static/media/logo.svg": "/FM-stats-preview-card/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/FM-stats-preview-card/index.html",
     "main.8a7804d0.css.map": "/FM-stats-preview-card/static/css/main.8a7804d0.css.map",
-    "main.3e47a2b8.js.map": "/FM-stats-preview-card/static/js/main.3e47a2b8.js.map"
+    "main.47335092.js.map": "/FM-stats-preview-card/static/js/main.47335092.js.map"
   },
   "entrypoints": [
     "static/css/main.8a7804d0.css",
-    "static/js/main.3e47a2b8.js"
+    "static/js/main.47335092.js"
   ]
 }
