@@ -21,6 +21,8 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 ## Overview
 This is my second completed challenge for Frontend Mentor. I do these challenges as a way to solidify and enhance my front-end development skills, and as an opportunity to learn more about React, CSS, and accessibility best-practices.
+
+For these challenges I am given JPGs of the final product, fonts, font sizes, and colors. I am not given exact dimensions so I have to guess those.
 ### The challenge
 
 Users should be able to:
