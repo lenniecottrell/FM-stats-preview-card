@@ -2,13 +2,11 @@
 
 This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Table of contents
-
+## Table of content
 - [Frontend Mentor - Stats preview card component solution](#frontend-mentor---stats-preview-card-component-solution)
-  - [Table of contents](#table-of-contents)
+  - [Table of content](#table-of-content)
   - [Overview](#overview)
     - [The challenge](#the-challenge)
-    - [Screenshot](#screenshot)
     - [Links](#links)
   - [My process](#my-process)
     - [Built with](#built-with)
@@ -20,16 +18,12 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 ## Overview
 This is my second completed challenge for Frontend Mentor. I do these challenges as a way to solidify and enhance my front-end development skills, and as an opportunity to learn more about React, CSS, and accessibility best-practices.
 
-For these challenges I am given JPGs of the final product, fonts, font sizes, and colors. I am not given exact dimensions so I have to guess those.
+For these challenges I am given JPGs of the final product, fonts, font sizes, and colors. I am not given exact dimensions, so I have to guess!
 ### The challenge
 
 Users should be able to:
 
 - View the optimal layout depending on their device's screen size
-
-### Screenshot
-
-![](./src/images/stats-preview-screenshot.png)
 
 ### Links
 
